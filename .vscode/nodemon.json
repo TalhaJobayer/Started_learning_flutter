@@ -1,0 +1,9 @@
+{
+    "watch": [
+     "lib/" // or any other place where you hold the dart files
+   ],
+   "execMap": {
+      "dart": "dart"
+    },
+   "ext": "dart"
+ }

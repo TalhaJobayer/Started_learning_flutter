@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
         colorScheme:
-            ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 55, 158, 255)),
+            ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 55, 158, 255)),
         useMaterial3: true,
       ),
       home: const MyHomePage(title: 'MY FIRST PRACTICE '),
@@ -90,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
               tooltip: 'Increment',
               child: const Icon(Icons.add),
             ),
-            SizedBox(height: 16),
+            const SizedBox(height: 16),
             FloatingActionButton(
               onPressed: _deccrementCounter,
               tooltip: 'decrement',
